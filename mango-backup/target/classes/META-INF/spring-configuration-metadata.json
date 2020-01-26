@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "mango.backup.datasource",
+      "type": "com.wuan.mango.backup.datasource.BackupDataSourceProperties",
+      "sourceType": "com.wuan.mango.backup.datasource.BackupDataSourceProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mango.backup.datasource.database",
+      "type": "java.lang.String",
+      "sourceType": "com.wuan.mango.backup.datasource.BackupDataSourceProperties"
+    },
+    {
+      "name": "mango.backup.datasource.host",
+      "type": "java.lang.String",
+      "sourceType": "com.wuan.mango.backup.datasource.BackupDataSourceProperties"
+    },
+    {
+      "name": "mango.backup.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.wuan.mango.backup.datasource.BackupDataSourceProperties"
+    },
+    {
+      "name": "mango.backup.datasource.user-name",
+      "type": "java.lang.String",
+      "sourceType": "com.wuan.mango.backup.datasource.BackupDataSourceProperties"
+    }
+  ],
+  "hints": []
+}
