@@ -7,7 +7,7 @@
       ┃　　　┻　　　┃
       ┃　　　　　　 ┃
       ┗━┓　　　┏━━━┛
-        ┃　　　┃   mango application
+        ┃　　　┃   mango-monitor application
         ┃　　　┃   Version: 1.0
         ┃　　　┗━━━━━━━━━┓
         ┃　　　　　　　    ┣┓
