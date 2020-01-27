@@ -12,17 +12,20 @@
         <module name="mango-core" />
         <module name="mango-monitor" />
         <module name="mango-producer" />
+        <module name="mango-producer2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mango-admin" target="1.8" />
       <module name="mango-backup" target="1.8" />
       <module name="mango-common" target="1.8" />
+      <module name="mango-consul" target="1.8" />
       <module name="mango-core" target="1.8" />
       <module name="mango-hello" target="1.8" />
       <module name="mango-monitor" target="1.8" />
       <module name="mango-pom" target="1.8" />
       <module name="mango-producer" target="1.8" />
+      <module name="mango-producer2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -34,6 +37,7 @@
       <module name="mango-hello" options="-parameters" />
       <module name="mango-monitor" options="-parameters" />
       <module name="mango-producer" options="-parameters" />
+      <module name="mango-producer2" options="-parameters" />
     </option>
   </component>
 </project>

@@ -42,6 +42,8 @@
 		<module>../mango-core</module>
 		<module>../mango-backup</module>
 		<module>../mango-monitor</module>
+		<module>../mango-consul</module>
         <module>../mango-producer</module>
-    </modules>
+		<module>../mango-producer2</module>
+	</modules>
 </project>
