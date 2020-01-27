@@ -8,10 +8,12 @@
       <module fileurl="file://$PROJECT_DIR$/../mango-consul/mango-consul.iml" filepath="$PROJECT_DIR$/../mango-consul/mango-consul.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mango-consumer/mango-consumer.iml" filepath="$PROJECT_DIR$/../mango-consumer/mango-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mango-core/mango-core.iml" filepath="$PROJECT_DIR$/../mango-core/mango-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mango-hystrix/mango-hystrix.iml" filepath="$PROJECT_DIR$/../mango-hystrix/mango-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mango-monitor/mango-monitor.iml" filepath="$PROJECT_DIR$/../mango-monitor/mango-monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mango-pom.iml" filepath="$PROJECT_DIR$/.idea/mango-pom.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mango-producer/mango-producer.iml" filepath="$PROJECT_DIR$/../mango-producer/mango-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mango-producer2/mango-producer2.iml" filepath="$PROJECT_DIR$/../mango-producer2/mango-producer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mango-zuul/mango-zuul.iml" filepath="$PROJECT_DIR$/../mango-zuul/mango-zuul.iml" />
     </modules>
   </component>
 </project>

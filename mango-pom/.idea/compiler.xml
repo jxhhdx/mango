@@ -11,9 +11,11 @@
         <module name="mango-common" />
         <module name="mango-consumer" />
         <module name="mango-core" />
+        <module name="mango-hystrix" />
         <module name="mango-monitor" />
         <module name="mango-producer" />
         <module name="mango-producer2" />
+        <module name="mango-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,10 +26,12 @@
       <module name="mango-consumer" target="1.8" />
       <module name="mango-core" target="1.8" />
       <module name="mango-hello" target="1.8" />
+      <module name="mango-hystrix" target="1.8" />
       <module name="mango-monitor" target="1.8" />
       <module name="mango-pom" target="1.8" />
       <module name="mango-producer" target="1.8" />
       <module name="mango-producer2" target="1.8" />
+      <module name="mango-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -38,9 +42,11 @@
       <module name="mango-consumer" options="-parameters" />
       <module name="mango-core" options="-parameters" />
       <module name="mango-hello" options="-parameters" />
+      <module name="mango-hystrix" options="-parameters" />
       <module name="mango-monitor" options="-parameters" />
       <module name="mango-producer" options="-parameters" />
       <module name="mango-producer2" options="-parameters" />
+      <module name="mango-zuul" options="-parameters" />
     </option>
   </component>
 </project>
