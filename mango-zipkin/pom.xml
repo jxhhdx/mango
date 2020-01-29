@@ -11,35 +11,29 @@
 	</parent>
 
 	<groupId>com.wuan</groupId>
-	<artifactId>mango-common</artifactId>
-	<packaging>jar</packaging>
-	<version>1.0.0</version>
-	<name>mango-common</name>
-	<description>mango-common</description>
+	<artifactId>mango-zipkin</artifactId>
+	<version>${project.version}</version>
+	<packaging>pom</packaging>
+
+	<name>mango-zipkin</name>
+	<description>mango-zipkin</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<project.version>1.0.0</project.version>
 		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
-		<!-- web -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<!-- commons-beanutils -->
-		<dependency>
-		    <groupId>commons-beanutils</groupId>
-		    <artifactId>commons-beanutils</artifactId>
-		    <version>1.9.3</version>
-		</dependency>
-		<!-- poi -->
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml</artifactId>
-			<version>4.0.1</version>
-		</dependency>
+
 	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 </project>

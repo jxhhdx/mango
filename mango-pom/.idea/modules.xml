@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/mango-pom.iml" filepath="$PROJECT_DIR$/.idea/mango-pom.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mango-producer/mango-producer.iml" filepath="$PROJECT_DIR$/../mango-producer/mango-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mango-producer2/mango-producer2.iml" filepath="$PROJECT_DIR$/../mango-producer2/mango-producer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mango-zipkin/mango-zipkin.iml" filepath="$PROJECT_DIR$/../mango-zipkin/mango-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mango-zuul/mango-zuul.iml" filepath="$PROJECT_DIR$/../mango-zuul/mango-zuul.iml" />
     </modules>
   </component>

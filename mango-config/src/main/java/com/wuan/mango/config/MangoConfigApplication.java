@@ -1,4 +1,4 @@
-package com.wuan.mangoconfig;
+package com.wuan.mango.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

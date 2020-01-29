@@ -12,10 +12,18 @@ spring:
     config:
       label: master  # git仓库分支
       server:
-        native:
-          search-locations: file:D:/shortcut/price/config-repo/consumer-dev.properties
-#        git:
-#          uri: https://gitee.com/liuge1988/mango.git  # 配置git仓库的地址
-#          search-paths: src/config-repo  # git仓库地址下的相对地址，可以配置多个，用,分割。
-#          username: username  # git仓库的账号
-#          password: password  # git仓库的密码
+        git:
+          uri: https://gitee.com/liuge1988/mango.git  # 配置git仓库的地址
+          search-paths: src/config-repo  # git仓库地址下的相对地址，可以配置多个，用,分割。
+          username: username  # git仓库的账号
+          password: password  # git仓库的密码
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: username
+    password: password
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

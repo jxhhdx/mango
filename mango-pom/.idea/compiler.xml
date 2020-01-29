@@ -33,6 +33,7 @@
       <module name="mango-pom" target="1.8" />
       <module name="mango-producer" target="1.8" />
       <module name="mango-producer2" target="1.8" />
+      <module name="mango-zipkin" target="1.8" />
       <module name="mango-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -49,6 +50,7 @@
       <module name="mango-monitor" options="-parameters" />
       <module name="mango-producer" options="-parameters" />
       <module name="mango-producer2" options="-parameters" />
+      <module name="mango-zipkin" options="-parameters" />
       <module name="mango-zuul" options="-parameters" />
     </option>
   </component>

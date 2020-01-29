@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 import com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet;
 
 /**
- * Notes
+ * 服务消费者启动类
  * @author gaoxiang
  * @date 2020/01/27
  */
